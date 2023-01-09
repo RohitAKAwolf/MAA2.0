@@ -1,0 +1,270 @@
+@media only screen and (max-width: 600px){
+      
+     /*HEADER*/
+     .logo {
+        width: 38%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 2%;
+    }
+    .logo img {
+        width: 100%;
+    }
+
+    .links-logo img {
+        margin: 0px 0% 0% 0%;
+    height: 26px;
+    padding: 5px;
+    }
+    .links-logo a {
+        padding: 6% 2% 1% 2%;
+    }
+    .blank {
+        width: 14%;
+    }
+
+    /*NAVIGATION*/
+
+    .navigation li {
+        list-style: none;
+        padding: 2% 8%;
+        font-size: 11px;
+    }
+    .navigation a:hover{
+        color: rgb(249 102 102);
+        border-radius: 30px;
+    }
+    
+    /*FOOTER*/
+    footer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer div {
+        font-size: 12.5px;
+        color: #ffb5b5;
+        margin: 0;
+        padding: 3% 0px 0px 3%;
+        margin-left: 3%;
+    }
+
+    
+    /*BANNER*/
+    /*MAIN IMAGES*/
+    .section_one {
+        height: 17vh;
+    }
+    
+   
+    /*mission*/
+    #mission {
+        margin-top: 6%;
+    }
+    .mission {
+        font-size: 10px;
+        display: flex;
+        color: white;
+        margin: -10% 0% 0% 1%;
+    }
+    .mission div p{
+        font-size: x-small;
+    }
+    .mission div button{
+        font-size: x-small;
+    }
+    /****SLIDESHOW****/
+    .image-sliderfade img {
+        max-width: 80%;
+        margin: 0 0 0 8%;
+    }
+    .container button a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .heading {
+        font-size: 22.81px;
+    }
+    #content {
+        margin: 1%;
+        font-size: 12px;
+    }
+
+    /*******MEMBERS*********/   
+  .member_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.member_box div {
+    max-width: 98%;
+} 
+.member_box div p {
+    padding: 1%;
+    font-size: 12px;
+}
+#swapan_sir {
+    max-width: 26%;
+}
+#trishna_das {
+    max-width: 27%;
+}
+#madhurima_paul {
+    max-width: 27%;
+}
+/*****CONTACT US*****/
+.location blockquote {
+    font-size: 10px;
+    margin: 1%;
+}
+.location p {
+    font-size: 29px;}
+iframe {
+    max-width: 97%;
+    border: 0;
+    width: 100%;
+    margin: 2%;
+}
+    /************GALLERY PAGE*********/
+    .gallery_text {
+        font-size: large;
+        margin: 1%;
+        padding: 2%;
+        font-family: cursive;
+        border: 1px solid rgb(249 102 102);
+    }
+    .image img{
+        width: 31%;
+    }
+
+    
+
+    /************DONATION PAGE*********/
+    #donate_wrap{
+        flex-direction: column;
+    }
+    #div_1 p {
+        margin: 1%;
+        font-size: 10px;
+    }
+    #div_1 h1 {
+        font-size: 30px;
+        color: rgb(255 66 66 / 90%);
+        margin-top: 0.5%;
+    }
+    #div_1 img{
+        max-width: 40%;
+    }
+    #div_2 {
+        font-size: 14px;
+       padding: 2%;
+    }
+    #div_2 h4 {
+        text-decoration: underline;
+        font-size: 18px;
+        margin-top: 5%;
+    }
+}   
+
+
+
+
+
+@media screen and (max-width: 1280px) and (min-width: 600px){
+
+
+ /*Header*/
+     .logo {
+        width: 24%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0%;
+    }
+
+    .links-logo img {
+        margin: 15px 0% 0% 0%;
+        height: 23px;
+        padding: 0px;
+    }
+    .links-logo a {
+        padding: 0% 13% 2% 9%;
+    }
+    .blank {
+        width: 47%;
+    }
+    /*NAVIGATION*/
+    .navigation li {
+        list-style: none;
+        padding: 2% 20%;
+    }
+    /*FOOTER*/
+    footer{
+        flex-direction: column;
+    }
+    footer div {
+        font-size: 15px;
+        color: #ffb5b5;
+        margin: 0.5% 2%;
+        padding: 1%;
+    }
+    /*BANNER*/
+    .section_one {
+        height: 25vh;
+    }
+
+    .mission {
+        font-size: 8px;
+        display: flex;
+        color: white;
+        margin: -5% 0% 0% 1%;
+      }
+
+  /*******MEMBERS*********/   
+  .member_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.member_box div {
+    max-width: 90%;
+} 
+#swapan_sir{
+    max-width: 44%;
+}
+#trishna_das{
+ max-width: 38%;
+}
+#madhurima_paul{
+ max-width: 41%;
+}
+
+
+
+
+
+  /************DONATION PAGE*********/
+#donate_wrap{
+    flex-direction: column;
+}
+#div_1 h1 {
+    font-size: 30px;
+    color: rgb(255 66 66 / 90%);
+    margin-top: 0.5%;
+}
+#div_1 img{
+    max-width: 40%;
+}
+#div_2 {
+    font-size: 18px;
+   padding: 2%;
+}
+#div_2 h4 {
+    text-decoration: underline;
+    font-size: 18px;
+    margin-top: 5%;
+}
+}
