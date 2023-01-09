@@ -40,6 +40,7 @@
     footer{
         flex-direction: column;
         align-items: flex-start;
+        height: 35vh;
     }
     footer div {
         font-size: 12.5px;
@@ -78,10 +79,11 @@
         max-width: 80%;
         margin: 0 0 0 8%;
     }
+    .container button{
+        margin-left: 39%;
+    }
     .container button a {
-        text-decoration: none;
-        color: white;
-        font-size: 12px;
+        font-size: 15px;
     }
     .heading {
         font-size: 22.81px;
@@ -177,52 +179,73 @@ iframe {
 
 
  /*Header*/
-     .logo {
-        width: 24%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 0 0 0%;
-    }
+ .logo {
+    width: 35%;
+}
 
-    .links-logo img {
-        margin: 15px 0% 0% 0%;
-        height: 23px;
-        padding: 0px;
-    }
-    .links-logo a {
-        padding: 0% 13% 2% 9%;
-    }
-    .blank {
-        width: 47%;
-    }
+.logo img {
+    width: 100%;
+}
+
+.links-logo img {
+    margin: 0px 0% 0% 0%;
+height: 42px;
+padding: 5px;
+}
+.links-logo a {
+    padding: 6% 2% 1% 2%;
+}
+.blank {
+    width: 27%;
+}
+
     /*NAVIGATION*/
     .navigation li {
         list-style: none;
-        padding: 2% 20%;
+        padding: 2% 18%;
     }
     /*FOOTER*/
     footer{
         flex-direction: column;
+        align-items: flex-start;
+        height: 37vh;
     }
     footer div {
-        font-size: 15px;
+        font-size: 18px;
         color: #ffb5b5;
-        margin: 0.5% 2%;
-        padding: 1%;
-    }
-    /*BANNER*/
-    .section_one {
-        height: 25vh;
+        margin: 0;
+        padding: 3% 0px 0px 3%;
+        margin-left: 3%;
     }
 
+    /*BANNER*/
+    .section_one {
+        height: 26vh;
+    }
+    #mission {
+        margin-top: 6%;
+    }
     .mission {
-        font-size: 8px;
+        font-size: 15px;
         display: flex;
         color: white;
         margin: -5% 0% 0% 1%;
       }
+      .mission div p {
+        font-size: 20px;
+    }
 
+ /***SLIDESHOW*****/
+ .image-sliderfade img {
+    max-width: 80%;
+    margin: 0 0 0 8%;
+}
+.container button{
+    margin-left: 38%;
+}
+.container button a{
+    font-size: 27px;
+}
   /*******MEMBERS*********/   
   .member_box {
     display: flex;
@@ -234,18 +257,20 @@ iframe {
     max-width: 90%;
 } 
 #swapan_sir{
-    max-width: 44%;
+    max-width: 38%;
 }
 #trishna_das{
  max-width: 38%;
 }
 #madhurima_paul{
- max-width: 41%;
+ max-width: 38%;
 }
 
 
-
-
+/***************GALLERY Page*******************/
+.image img {
+    width: 31%;
+}
 
   /************DONATION PAGE*********/
 #donate_wrap{
