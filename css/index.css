@@ -164,6 +164,18 @@ footer div{
     font-size: x-large;
 }
 
+
+/*ABOUT US*/
+
+.about_us p{
+
+font-size: 25px;
+border-left: 10px solid rgb(249 102 102);
+color: #676767;
+margin: 1%;
+padding: 1%;
+}
+
 /*heading class*/
 .heading{
     color: white;

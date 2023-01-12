@@ -54,7 +54,7 @@
     /*BANNER*/
     /*MAIN IMAGES*/
     .section_one {
-        height: 18vh;
+        height: 21vh;
     }
     
    
@@ -74,6 +74,11 @@
     .mission div button{
         font-size: x-small;
     }
+    /**********ABOUT US*****/
+    .about_us p {
+        font-size: 11px;
+        border-left: 4px solid rgb(249 102 102);
+    }
     /****SLIDESHOW****/
     .image-sliderfade img {
         max-width: 80%;
@@ -88,7 +93,7 @@
     .heading {
         font-size: 22.81px;
     }
-    #content {
+    .content {
         margin: 1%;
         font-size: 12px;
     }
@@ -108,7 +113,7 @@
     font-size: 12px;
 }
 #swapan_sir {
-    max-width: 28%;
+    max-width: 31%;
 }
 #trishna_das {
     max-width: 27%;
@@ -233,7 +238,7 @@ padding: 5px;
       .mission div p {
         font-size: 20px;
     }
-
+/**********ABOUT US*****/
  /***SLIDESHOW*****/
  .image-sliderfade img {
     max-width: 80%;
@@ -256,7 +261,7 @@ padding: 5px;
     max-width: 90%;
 } 
 #swapan_sir{
-    max-width: 38%;
+    max-width: 40%;
 }
 #trishna_das{
  max-width: 38%;
