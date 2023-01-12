@@ -38,7 +38,7 @@ document.getElementsByClassName("mission")[2].style.background="#981f1f";
 
 
 document.getElementsByClassName("heading")[0].style.color="#6a6b6a";
-document.getElementsByClassName("heading")[2].style.color="#6a6b6a";
+document.getElementsByClassName("heading")[3].style.color="#6a6b6a";
 
 
 
