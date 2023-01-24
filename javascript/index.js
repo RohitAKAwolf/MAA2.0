@@ -1,34 +1,23 @@
 /*slideshow 1*/
+var slider_img = document.querySelector('.slider-img');
+var images = ["MAA_img_1.jpg","MAA_img_2.jpg","MAA_img_4.jpg","MAA_img_6.jpg","MAA_img_8.jpg","MAA_img_16.jpg","MAA_img_10.jpg","MAA_img_11.jpg","MAA_img_15.jpg","MAA_img_9.jpg","MAA_img_17.jpg","MAA_img_19.jpg"];
+var i = 0;
 
-var slideIndex = 0;
-showSlides(); // call showslide method
+function prev(){
+	if(i <= 0) i = images.length;	
+	i--;
+	return setImg();			 
+}
 
-function showSlides()
-{
-	var i;
+function next(){
+	if(i >= images.length-1) i = -1;
+	i++;
+	return setImg();			 
+}
 
-	// get the array of divs' with classname image-sliderfade
-	var slides = document.getElementsByClassName("image-sliderfade");
+function setImg(){
+	return slider_img.setAttribute('src', "IMAGES/"+images[i]);
 	
-	
-
-	for (i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";
-	}
-
-	// increase by 1, Global variable
-	slideIndex++;
-
-	// check for boundary
-	if (slideIndex > slides.length)
-	{
-		slideIndex = 1;
-	}
-
-	slides[slideIndex - 1].style.display = "block";
-
-	// Change image every 2 seconds
-	setTimeout(showSlides, 2500);
 }
 
 /*mission colours*/
